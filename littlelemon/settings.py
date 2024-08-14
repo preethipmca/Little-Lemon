@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'restaurant',
     'rest_framework',
     'rest_framework.authtoken',
-    # 'djoser',
+    'djoser',
 ]
 
 MIDDLEWARE = [
@@ -88,7 +88,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',   
         'NAME': 'littlelemon',   
         'USER': 'root',   
-        'PASSWORD': 'Preethi@123',   
+        'PASSWORD': 'new_password',   
         'HOST': '127.0.0.1',   
         'PORT': '3306',   
         'OPTIONS': {   
@@ -152,6 +152,6 @@ REST_FRAMEWORK = {
 }
 
 
-# DJOSER={"USER_ID_FIELD":"username"}
+DJOSER={"USER_ID_FIELD":"username"}
 
 
